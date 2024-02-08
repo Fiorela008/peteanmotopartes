@@ -51,35 +51,24 @@
     font-family: 'Roboto', sans-serif;
   }
 
-  header{
+  .navpropio{
     background-color: black;
-    position: sticky;
-    top: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 
-  header img{
-    width: 200px;
-    margin-top: 1rem;
-    margin-left: 2rem;
-  }
-
-  header ul{
-    list-style: none;
-  }
-
-  header li{
-    display: inline-block;
-    font-size: 1.5rem;
-    margin-right: 10px;
-  }
-
-  header a{
+  .navpropio a{
     color: white;
-    text-decoration: none;
+    font-size: 1.5rem;
   }
+
+  .navpropio :hover{
+    color: darkgray;
+  }
+
+  .navpropio button{
+    background-color: white;
+  }
+
+ 
 
   /* Main indeex */
 
@@ -140,6 +129,9 @@
   .productos-destacado img{
     width: 250px;
     height: 250px;
+    background-color: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
 
   }
 
@@ -209,9 +201,12 @@
 
   }
 
-  .repuestos-motos img{
+  .repuestos img{
     width: 250px;
     height: 250px;
+    background-color: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   /* Main accesorios */
@@ -221,6 +216,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-items: center;
+    margin-bottom: 7rem;
     margin-top: 7rem;
   }
 
@@ -232,9 +228,12 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
   }
 
-  .accesorios-motos img{
+  .accesorios img{
     width: 250px;
     height: 250px;
+    background-color: none;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 
   .info-accesorios{
