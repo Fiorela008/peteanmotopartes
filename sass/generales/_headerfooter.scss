@@ -1,0 +1,32 @@
+header{
+    .navpropio{
+        background-color: $negro;
+        a{
+            color: $blanco;
+            font-size: 1.5rem;
+
+            &:hover{
+                color: darkgray;
+
+            }
+
+            button{
+                background-color: $blanco;
+            }
+        
+        }
+        
+      }
+}
+
+footer{
+    background-color: $negro;
+    color: $blanco;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 40px;
+    }
+}

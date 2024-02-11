@@ -1,0 +1,44 @@
+// mobile //
+
+@media only screen and (max-width:500px) {
+
+    .banner{
+        padding: 100px;
+
+        h1{
+            font-size: 2.5rem;
+          }
+      }
+      .divproductos-destacados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .repuestos-motos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+      }
+    
+      .accesorios-motos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+      }
+
+
+    .local{
+        img{
+            padding: 4px;
+            width: 400px;
+            margin-bottom: 7rem;
+        }
+    }
+
+    
+
+
+}

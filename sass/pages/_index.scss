@@ -1,0 +1,82 @@
+// banner //
+
+.banner{
+    background-image: url(../imagenes/banner.jpg.jpg);
+    padding: 190px;
+    background-size: cover;
+    background-position: bottom;
+    text-align: left;
+    color: $blanco;
+    margin-top: 4rem;
+
+    h1{
+        color: $blanco;
+        font-size: 3rem;
+        margin-left: -10rem;
+        text-decoration: none;
+  }
+}
+
+// main //
+
+.titulo-destacados{
+    color: $azul;
+    text-transform: uppercase;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+
+  .divproductos-destacados{
+    display: flex;
+    justify-content: space-around;
+
+    .productos-destacado{
+        border-radius: 5px;
+
+        img{
+            width: 250px;
+            height: 250px;
+            background-color: none;
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+
+
+        &:hover{
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+        }
+
+        button{
+            border: none;
+            background: none;
+            background-color: $azul;
+            color: $blanco;
+            padding: 15px 10px;
+            cursor: pointer;
+        }
+      }
+
+      .info-destacados{
+        padding: 15px 30px;
+        line-height: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       }
+
+
+  }
+
+  .titulo-descripcion{
+    color: $azul;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    margin-top: 7rem;
+  }
+
+  .descripcion-servicio{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 10rem;
+  }

@@ -1,0 +1,68 @@
+@import "generales/variables";
+
+/* estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  html{
+    font-family: $font;
+    font-size: 62.5%;
+  }
+
+  h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: $azul;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  h2{
+    font-size: 2.5rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+
+  h3{
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-left: 2rem;
+  }
+
+  h4{
+    font-size: 1.80rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  body{
+    font-family: $font
+  }
+
+
+@import "generales/headerfooter";
+@import "pages/index";
+@import "pages/repuestos";
+@import "pages/accesorios";
+@import "pages/empresa";
+@import "pages/contacto";
+
+@import "generales/mediaq";
+
+
+
+

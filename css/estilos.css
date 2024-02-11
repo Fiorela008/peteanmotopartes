@@ -1,0 +1,306 @@
+/* estilos generales */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: #000ff0;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+h3 {
+  font-size: 2rem;
+  text-decoration: underline;
+  margin-left: 2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header .navpropio {
+  background-color: #000000;
+}
+header .navpropio a {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+header .navpropio a:hover {
+  color: darkgray;
+}
+header .navpropio a button {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  width: 40px;
+}
+
+.banner {
+  background-image: url(../imagenes/banner.jpg.jpg);
+  padding: 190px;
+  background-size: cover;
+  background-position: bottom;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 4rem;
+}
+.banner h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  margin-left: -10rem;
+  text-decoration: none;
+}
+
+.titulo-destacados {
+  color: #000ff0;
+  text-transform: uppercase;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.divproductos-destacados {
+  display: flex;
+  justify-content: space-around;
+}
+.divproductos-destacados .productos-destacado {
+  border-radius: 5px;
+}
+.divproductos-destacados .productos-destacado img {
+  width: 250px;
+  height: 250px;
+  background-color: none;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.divproductos-destacados .productos-destacado:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.divproductos-destacados .productos-destacado button {
+  border: none;
+  background: none;
+  background-color: #000ff0;
+  color: #ffffff;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+.divproductos-destacados .info-destacados {
+  padding: 15px 30px;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.titulo-descripcion {
+  color: #000ff0;
+  text-transform: uppercase;
+  margin-left: 2rem;
+  margin-top: 7rem;
+}
+
+.descripcion-servicio {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 10rem;
+}
+
+.repuestos-motos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin-bottom: 7rem;
+  margin-top: 7rem;
+}
+.repuestos-motos button {
+  border: none;
+  background: none;
+  background-color: #000ff0;
+  color: #ffffff;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+.repuestos-motos .repuestos {
+  border-radius: 5px;
+}
+.repuestos-motos .repuestos:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.repuestos-motos .repuestos img {
+  width: 250px;
+  height: 250px;
+  background-color: none;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.repuestos-motos .repuestos .info-repuestos {
+  padding: 15px 30px;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.accesorios-motos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin-bottom: 7rem;
+  margin-top: 7rem;
+}
+.accesorios-motos button {
+  border: none;
+  background: none;
+  background-color: #000ff0;
+  color: #ffffff;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+.accesorios-motos .accesorios {
+  border-radius: 5px;
+}
+.accesorios-motos .accesorios:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.accesorios-motos .accesorios img {
+  width: 250px;
+  height: 250px;
+  background-color: none;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.accesorios-motos .accesorios .info-accesorios {
+  padding: 15px 30px;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sobre-nosotros p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.local img {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacto-local {
+  display: flex;
+  justify-content: left;
+  margin: 20px 20px;
+}
+
+.formulario-contacto {
+  width: 400px;
+  background-color: #000ff0;
+  padding: 50px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  margin-bottom: 7rem;
+}
+.formulario-contacto h4 {
+  font-size: 2.5rem;
+  text-decoration: underline;
+  color: #ffffff;
+  text-align: center;
+}
+.formulario-contacto .registro {
+  width: 100%;
+  background: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.formulario-contacto .boton {
+  width: 100%;
+  background: #ffffff;
+  color: #000ff0;
+  font-size: 1.5rem;
+  border: none;
+  padding: 12px;
+  margin: 15px 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .banner {
+    padding: 100px;
+  }
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+  .divproductos-destacados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .repuestos-motos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .accesorios-motos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .local img {
+    padding: 4px;
+    width: 400px;
+    margin-bottom: 7rem;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
