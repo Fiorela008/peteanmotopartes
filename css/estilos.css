@@ -63,6 +63,9 @@ header .navpropio a:hover {
 header .navpropio a button {
   background-color: #ffffff;
 }
+header .navpropio a img {
+  width: 200px;
+}
 
 footer {
   background-color: #000000;
@@ -76,7 +79,7 @@ footer img {
 }
 
 .banner {
-  background-image: url(../imagenes/banner.jpg.jpg);
+  background-image: url(../imagenes/banner.jpg);
   padding: 190px;
   background-size: cover;
   background-position: bottom;
